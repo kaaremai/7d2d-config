@@ -1483,7 +1483,7 @@
 	<property name="NightWanderSpeed" value="0.3"/>
 	<property name="NightApproachSpeed" value="1.6"/>
 	<property name="PanicSpeed" value="1.6"/>
-	<property name="MaxHealth" value="120"/>
+	<property name="MaxHealth" value="90"/>
 	<property name="SoundRandomTime" value="45.0"/>
 	<property name="SoundAlertTime" value="25.0"/>
 	<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>

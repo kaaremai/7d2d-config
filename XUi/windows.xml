@@ -1,6 +1,6 @@
 <windows>
 	<window name="HUDLeftStatBars">
-		<grid name="hud" pos="9,98" rows="2" cols="1" width="168" cell_width="168" cell_height="46" repeat_content="false" side="left" >
+		<grid name="hud" pos="9,187" rows="2" cols="1" width="168" cell_width="168" cell_height="46" repeat_content="false" side="left" >
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced" />
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
@@ -16,7 +16,7 @@
 				<sprite depth="4" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="32,32" pos="8,-6" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="0,-10" font_size="28" color="[white]" justify="center" pivot="topleft" text="{statcurrentwithmax}" height="30"/>
 			</rect>
-
+			
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="2" pos="3,-3"  name="background" height="37" width="162" color="64,64,64,100" type="sliced" />
